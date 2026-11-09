@@ -21,7 +21,7 @@
 - [Technical skills](https://osamasharaf.dev/skills): Full tech stack
 - [How I work](https://osamasharaf.dev/how-i-work): Professional skills and process
 - [Experience](https://osamasharaf.dev/experience): Work history
-- [Education](https://osamasharaf.dev/education): Degree, certificate and certifications
+- [Education](https://osamasharaf.dev/education): Degree and certificate
 - [Contact](https://osamasharaf.dev/contact): Project inquiry form, WhatsApp, LinkedIn and email
 - [CV (PDF)](https://osamasharaf.dev/resume/OsamaSharaf.pdf): Downloadable résumé
 

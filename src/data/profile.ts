@@ -76,14 +76,6 @@ export const EDUCATION = {
   certificate: { src: "/images/certificate.webp", width: 854, height: 561 },
 };
 
-export const CERTIFICATIONS = [
-  { name: "Business Analysis & Process Management", by: "Coursera" },
-  { name: "Build a Free Website with WordPress", by: "Coursera" },
-  { name: "Big Data for Business Intelligence Techniques", by: "Mindluster" },
-  { name: "Cyber Security Fundamentals", by: "Mindluster" },
-  { name: "People Management", by: "Mindluster" },
-];
-
 export const WORK_SKILLS = [
   { key: "time", title: "Time management", text: "Clear milestones, honest estimates and delivery on the agreed date." },
   { key: "team", title: "Teamwork", text: "At home in mixed teams of designers, developers and product owners." },

@@ -3946,3 +3946,28 @@ html.cursor-text .cur-dot span {
     right: auto;
   }
 }
+
+/* Experience timeline on phones: one column, stacked */
+@media (max-width: 759px) {
+  .deck .tl-items,
+  .tl-items {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 26px;
+  }
+
+  .deck .tl-item,
+  .tl-item {
+    padding-left: 46px;
+    min-width: 0;
+  }
+
+  .deck .tl-item h3 {
+    font-size: 20px;
+    line-height: 1.15;
+  }
+
+  .deck .tl-item ul li {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+}

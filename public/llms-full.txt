@@ -21,7 +21,7 @@
 - [Technical skills](https://osamasharaf.dev/skills): Full tech stack
 - [How I work](https://osamasharaf.dev/how-i-work): Professional skills and process
 - [Experience](https://osamasharaf.dev/experience): Work history
-- [Education](https://osamasharaf.dev/education): Degree, certificate and certifications
+- [Education](https://osamasharaf.dev/education): Degree and certificate
 - [Contact](https://osamasharaf.dev/contact): Project inquiry form, WhatsApp, LinkedIn and email
 - [CV (PDF)](https://osamasharaf.dev/resume/OsamaSharaf.pdf): Downloadable résumé
 
@@ -55,21 +55,14 @@ Full-Stack Engineer who builds and ships production web and mobile applications,
 - Shipped React, Next.js and TypeScript frontends with 90+ Lighthouse performance
 - Cut page load times by around 30% through asset optimisation, caching and code splitting
 
-## Education and certifications
+## Education
 - Bachelor of Information Technology (Software Engineering), University of Kalamoon
-- Business Analysis & Process Management (Coursera)
-- Build a Free Website with WordPress (Coursera)
-- Big Data for Business Intelligence Techniques (Mindluster)
-- Cyber Security Fundamentals (Mindluster)
-- People Management (Mindluster)
 
 ## Technical skills
-- Frontend: React, Next.js, Vue, JavaScript (ES6+), TypeScript, HTML5, CSS3, Tailwind CSS, Framer Motion, GSAP, Three.js, React Three Fiber
-- Backend and data: Node.js, Express, REST APIs, authentication, Supabase, Firebase, PostgreSQL, MySQL, MongoDB, database design
-- Performance and SEO: Core Web Vitals, Lighthouse, technical SEO, GEO, AEO, accessibility
-- Mobile: Flutter, Dart, BLoC, clean architecture
-- UI/UX: wireframes, prototypes, design systems, visual identity, Figma
-- Tools: Git, GitHub, VS Code, Vercel, Netlify, Docker, Postman, npm, Agile and Scrum
+- Frontend: Next.js, TypeScript, JavaScript, HTML5, CSS3
+- Backend and data: Node.js, Supabase, Firebase
+- Hosting and domains: Vercel, Hostinger, domain setup and DNS
+- Tools: Claude Code, GitHub, VS Code, Figma, Framer
 
 ## Professional skills
 Time management, teamwork, project management, clear communication, problem solving, attention to detail, adaptability, client focus.
@@ -178,7 +171,7 @@ Time management, teamwork, project management, clear communication, problem solv
 - Intro where the RS logo draws itself, then a curtain opens
 - A different entrance for every section
 - 48 skills across 7 fields, each with its icon
-- Certificates gallery with zoom
+- Degree certificate gallery with zoom
 - A separate indexable page for every section
 - Full structured data: Person, ProfilePage, FAQ and more
 - Stack: HTML, CSS, JavaScript, JSON-LD, Vercel

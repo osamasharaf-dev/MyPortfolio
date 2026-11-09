@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { CERTIFICATIONS, EDUCATION, PROFILE } from "@/data/profile";
+import { EDUCATION, PROFILE } from "@/data/profile";
 import CertZoom from "./CertZoom";
 import { Arrow } from "./Icons";
 
@@ -32,14 +32,6 @@ export default function Education({ explore = true, head = true }: { explore?: b
             </h3>
             <span className="degree-field m">{EDUCATION.field}</span>
             <div className="school">{EDUCATION.school}</div>
-            <ul className="certs" aria-label="Certifications">
-              {CERTIFICATIONS.map((c) => (
-                <li key={c.name}>
-                  <span>{c.name}</span>
-                  <span className="m">{c.by}</span>
-                </li>
-              ))}
-            </ul>
             <p className="langs m">{PROFILE.languages.map((l) => `${l.name} (${l.level})`).join("  ·  ")}</p>
           </div>
           <div className="folder">
