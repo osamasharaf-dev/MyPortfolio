@@ -1,0 +1,184 @@
+# Osama Sharaf (أسامة شرف), Full Stack Developer
+
+> Osama Sharaf is a Full-Stack Engineer based in Riyadh, Saudi Arabia. He builds production websites, online stores and web apps with React, Next.js, TypeScript, Node.js, Supabase and Firebase, with a focus on speed (95+ PageSpeed), technical SEO (100/100) and polished, scroll-driven interfaces. 15+ happy clients and 10+ projects delivered. Open to freelance work and to relocation worldwide.
+
+## Key facts
+
+- Name: Osama Sharaf (Osama Abdulhalim Sharaf, أسامة شرف)
+- Role: Full Stack Developer · Web Developer · Frontend Developer
+- Current position: Full-Stack Engineer at Digital Codes For Trading, Riyadh (since June 2026)
+- Freelance: full-stack engineer on a project basis since 2024
+- Education: Bachelor of Information Technology (Software Engineering), University of Kalamoon
+- Location: Riyadh, Saudi Arabia · open to relocation
+- Languages: Arabic (native), English (professional working)
+- Contact: osamaabdulhalimsharaf@gmail.com · +966 50 811 7086 · WhatsApp https://wa.me/966508117086
+
+## Pages
+
+- [Home](https://osamasharaf.dev/): Overview, featured projects, skills and contact
+- [About](https://osamasharaf.dev/about): Background, summary and frequently asked questions
+- [Projects](https://osamasharaf.dev/projects): All projects with live links
+- [Technical skills](https://osamasharaf.dev/skills): Full tech stack
+- [How I work](https://osamasharaf.dev/how-i-work): Professional skills and process
+- [Experience](https://osamasharaf.dev/experience): Work history
+- [Education](https://osamasharaf.dev/education): Degree, certificate and certifications
+- [Contact](https://osamasharaf.dev/contact): Project inquiry form, WhatsApp, LinkedIn and email
+- [CV (PDF)](https://osamasharaf.dev/resume/OsamaSharaf.pdf): Downloadable résumé
+
+## Projects
+
+- [Milestone Store](https://osamasharaf.dev/project/milestone): A complete e-commerce platform for the Milestone kitchen-appliance brand: 250+ products, customer accounts, online ordering and a central admin dashboard. Live: https://milestone.website
+- [Milestone Showroom](https://osamasharaf.dev/project/milestone-showroom): A single-screen showroom website for Milestone. Every scroll swaps the scene in place, and every scene arrives with its own transition. Live: https://milestonechannels.netlify.app
+- [Digital Codes For Trading](https://osamasharaf.dev/project/digital-codes): The official website of Digital Codes For Trading: a five-page company profile with custom animations, interactive UI and a 95+ PageSpeed score. Live: https://digital-codes.co
+- [NOUÉ Chocolate Gifts](https://osamasharaf.dev/project/noue): A scroll-driven website for a chocolate gift house in Riyadh. One golden ribbon runs from the knot in the logo to the bow in the footer. Live: https://noue-chocolate.vercel.app
+- [GHURZA Couture](https://osamasharaf.dev/project/ghurza): An Arabic website for a Riyadh couture house, designed as a fashion magazine you browse by scrolling, with an interactive dress gallery. Live: https://ghurza.vercel.app
+- [GD Graphic Design](https://osamasharaf.dev/project/gd-studio): A one-page, scroll-driven website for a graphic design studio in Riyadh. Each service has its own scene, and every scene opens with its own transition. Live: https://gd-graphic-design-company.vercel.app
+- [AZM Studio](https://osamasharaf.dev/project/azm): A cinematic, scroll-driven website for an architecture and interior design studio: the visitor walks from the street, through the door and into the house. Live: https://azm-builds.vercel.app
+- [Reem Sharaf Portfolio](https://osamasharaf.dev/project/reem-sharaf): A cinematic one-page portfolio for Eng. Reem Sharaf, software engineer, AI researcher and lecturer. Sections swap in place, each with its own transition. Live: https://reemsharaf.vercel.app
+
+## Professional summary
+
+Full-Stack Engineer who builds and ships production web and mobile applications, from backend architecture and APIs to frontend engineering and UI/UX. Owns the whole lifecycle: planning, development, deployment, performance tuning and the improvements that follow launch.
+
+## Experience
+
+### Full-Stack Engineer, Digital Codes For Trading (Riyadh, on-site), June 2026 to present
+- Built and maintains the Milestone digital platform: frontend, backend, database, authentication and admin dashboard
+- Built the Milestone store with 250+ products, four categories and a complete online ordering system
+- Developed a five-page company profile with custom animations, scoring 95+ on Google PageSpeed Insights
+- Optimised both platforms for SEO, GEO and AEO, reaching 100/100 SEO scores
+- Owns deployment, hosting, domains, monitoring and production support
+
+### Freelance Full-Stack Engineer (remote, project-based), 2024 to present
+- Delivered 10+ production web and software projects, from planning and architecture to deployment
+- Built ordering platforms and admin dashboards with authentication and order management
+- Shipped React, Next.js and TypeScript frontends with 90+ Lighthouse performance
+- Cut page load times by around 30% through asset optimisation, caching and code splitting
+
+## Education and certifications
+- Bachelor of Information Technology (Software Engineering), University of Kalamoon
+- Business Analysis & Process Management (Coursera)
+- Build a Free Website with WordPress (Coursera)
+- Big Data for Business Intelligence Techniques (Mindluster)
+- Cyber Security Fundamentals (Mindluster)
+- People Management (Mindluster)
+
+## Technical skills
+- Frontend: React, Next.js, Vue, JavaScript (ES6+), TypeScript, HTML5, CSS3, Tailwind CSS, Framer Motion, GSAP, Three.js, React Three Fiber
+- Backend and data: Node.js, Express, REST APIs, authentication, Supabase, Firebase, PostgreSQL, MySQL, MongoDB, database design
+- Performance and SEO: Core Web Vitals, Lighthouse, technical SEO, GEO, AEO, accessibility
+- Mobile: Flutter, Dart, BLoC, clean architecture
+- UI/UX: wireframes, prototypes, design systems, visual identity, Figma
+- Tools: Git, GitHub, VS Code, Vercel, Netlify, Docker, Postman, npm, Agile and Scrum
+
+## Professional skills
+Time management, teamwork, project management, clear communication, problem solving, attention to detail, adaptability, client focus.
+
+## Project details
+
+### Milestone Store (E-commerce, 2026)
+- Page: https://osamasharaf.dev/project/milestone
+- Live: https://milestone.website
+- Role: Full-Stack Engineer
+- Milestone needed a store that feels premium, loads instantly and is simple for the team to run every day. I built the whole platform end to end: the storefront, the backend and database, customer authentication and a central dashboard that manages products, categories, content, users and orders.
+- 250+ products across four kitchen-appliance categories
+- Detailed product pages with full specification sheets
+- Customer registration, sign-in, verification and account pages
+- Online ordering with order history and live status tracking
+- Admin dashboard for products, categories, content, users and orders
+- Sales statistics and order status management
+- Technical SEO, GEO and AEO across the whole store
+- Deployment, hosting, domain setup and ongoing production support
+- Stack: React, TypeScript, Node.js, REST APIs, Tailwind CSS, Authentication, Technical SEO
+
+### Milestone Showroom (Brand experiences, 2026)
+- Page: https://osamasharaf.dev/project/milestone-showroom
+- Live: https://milestonechannels.netlify.app
+- Role: Full-Stack Engineer
+- The showroom is the front door to the Milestone store. The whole site is one screen: scrolling, swiping or the arrow keys swap each scene in place. The logo draws itself in, the tagline is written letter by letter, appliances rise into a spotlight over a kitchen backdrop, and the channels scene opens with an explosion of every store and social link.
+- One-screen navigation by scroll, swipe, keyboard and side dots
+- A different transition for every scene: split, circle reveal, slide, explosion and curtain
+- Collection with live finish and size switching
+- Our Channels scene where icons swim around the store and react to the cursor
+- Fully responsive, with a dedicated phone layout
+- Respects reduced-motion settings
+- SEO, AEO and GEO files with structured data
+- Stack: HTML, CSS, JavaScript, GSAP, Observer, Netlify
+
+### Digital Codes For Trading (Corporate, 2026)
+- Page: https://osamasharaf.dev/project/digital-codes
+- Live: https://digital-codes.co
+- Role: Full-Stack Engineer
+- I designed and developed the company's official website with a custom responsive interface, interactive animations and a clear page structure. The frontend is built on a responsive component architecture with performance optimisation and technical SEO, so the site stays fast and easy to maintain.
+- Five-page company profile with tailored layouts
+- Custom animations and interactive UI
+- Responsive components from phones to wide screens
+- Structured content for the company, its services and its brands
+- Technical SEO and metadata on every page
+- Deployment, domain setup and ongoing maintenance
+- Stack: React, TypeScript, Motion, Tailwind CSS, Technical SEO, Core Web Vitals
+
+### NOUÉ Chocolate Gifts (Brand experiences, 2026)
+- Page: https://osamasharaf.dev/project/noue
+- Live: https://noue-chocolate.vercel.app
+- Role: Full-Stack Engineer · UI/UX
+- Scroll and the box unties itself, the lid lifts and fifteen pieces of chocolate come into view. The ribbon then leads into four occasions (weddings, newborns, graduation and Eid), a box builder where visitors pick a size, flavours and a note, and a corporate gifting page.
+- A single golden ribbon that guides the whole scroll story
+- Box that unties and opens frame by frame
+- Four occasion chapters with their own colour and mood
+- Interactive box builder: size, flavours and a personal note
+- Corporate gifting section
+- Statically prerendered and fully responsive
+- Stack: Next.js, React, GSAP, ScrollTrigger, Lenis, Vercel
+
+### GHURZA Couture (Brand experiences, 2026)
+- Page: https://osamasharaf.dev/project/ghurza
+- Live: https://ghurza.vercel.app
+- Role: Full-Stack Engineer · UI/UX
+- Every section is a magazine page that opens from a different edge over the one before it. A dress vortex pulls visitors into the collection, each dress opens with its fabric, details and story, and the atelier section follows a dress from the first conversation to the final fitting.
+- Magazine-style page turns, each from a different edge
+- 3D dress vortex driven by scroll
+- Interactive collection: every dress opens with its details and fabric
+- Atelier journey from conversation to fitting
+- Right-to-left Arabic layout
+- No framework, plain and fast
+- Stack: HTML, CSS, JavaScript, GSAP, ScrollTrigger, Lenis
+
+### GD Graphic Design (Brand experiences, 2026)
+- Page: https://osamasharaf.dev/project/gd-studio
+- Live: https://gd-graphic-design-company.vercel.app
+- Role: Full-Stack Engineer · UI/UX
+- Identity, packaging, print, social media, motion, art direction and websites: each service gets a full scene. The social feed builds tile by tile, the websites scene zooms out of a browser, and the selected work runs as a horizontal gallery.
+- A full scene for each of the studio's services
+- A different transition for every scene
+- Social media feed that builds tile by tile
+- Websites scene that zooms out of a browser
+- Horizontal selected-work gallery
+- Static export, hosted on Vercel
+- Stack: Next.js, React, TypeScript, GSAP, Lenis, Vercel
+
+### AZM Studio (Corporate, 2026)
+- Page: https://osamasharaf.dev/project/azm
+- Live: https://azm-builds.vercel.app
+- Role: Full-Stack Engineer · UI/UX
+- One continuous scene. An opening film plays, the first scroll walks the camera to the front door, then the camera moves through the house frame by frame at the speed of the visitor's scroll. Six services slide sideways, the process is told over a studio film, and the story ends back in the living room with a conversation.
+- Scroll-scrubbed frame sequences drawn on canvas
+- Device-aware assets: full frames on laptops, lighter ones on phones
+- Coarse-to-fine loading so the scene is usable within seconds
+- Horizontal services slider driven by vertical scroll
+- Smooth scrolling with gentle snapping
+- No framework, no build step
+- Stack: HTML, CSS, JavaScript, Canvas 2D, Lenis, Vercel
+
+### Reem Sharaf Portfolio (Portfolios, 2026)
+- Page: https://osamasharaf.dev/project/reem-sharaf
+- Live: https://reemsharaf.vercel.app
+- Role: Full-Stack Engineer · UI/UX
+- Built with plain HTML, CSS and JavaScript, so it is very light and fast. An RS logo draws itself with a loading counter before a curtain opens. Every section has its own design and its own entrance: a door opening, a fall from above, a circular lens, a page flip and more. Every section also has its own indexable page.
+- Intro where the RS logo draws itself, then a curtain opens
+- A different entrance for every section
+- 48 skills across 7 fields, each with its icon
+- Certificates gallery with zoom
+- A separate indexable page for every section
+- Full structured data: Person, ProfilePage, FAQ and more
+- Stack: HTML, CSS, JavaScript, JSON-LD, Vercel

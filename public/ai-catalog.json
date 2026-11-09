@@ -1,0 +1,97 @@
+{
+  "name": "Osama Sharaf",
+  "url": "https://osamasharaf.dev",
+  "description": "Portfolio of Osama Sharaf, Full Stack Developer in Riyadh, Saudi Arabia.",
+  "person": {
+    "name": "Osama Sharaf",
+    "jobTitle": "Full-Stack Engineer",
+    "location": "Riyadh, Saudi Arabia",
+    "email": "osamaabdulhalimsharaf@gmail.com",
+    "telephone": "+966508117086",
+    "sameAs": [
+      "https://linkedin.com/in/osama-sharaf-dev",
+      "https://github.com/osamasharaf-dev"
+    ]
+  },
+  "resources": [
+    {
+      "type": "llms",
+      "url": "https://osamasharaf.dev/llms.txt"
+    },
+    {
+      "type": "llms-full",
+      "url": "https://osamasharaf.dev/llms-full.txt"
+    },
+    {
+      "type": "sitemap",
+      "url": "https://osamasharaf.dev/sitemap.xml"
+    },
+    {
+      "type": "resume",
+      "url": "https://osamasharaf.dev/resume/OsamaSharaf.pdf"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Milestone Store",
+      "url": "https://osamasharaf.dev/project/milestone",
+      "live": "https://milestone.website",
+      "category": "E-commerce",
+      "summary": "A complete e-commerce platform for the Milestone kitchen-appliance brand: 250+ products, customer accounts, online ordering and a central admin dashboard."
+    },
+    {
+      "name": "Milestone Showroom",
+      "url": "https://osamasharaf.dev/project/milestone-showroom",
+      "live": "https://milestonechannels.netlify.app",
+      "category": "Brand experiences",
+      "summary": "A single-screen showroom website for Milestone. Every scroll swaps the scene in place, and every scene arrives with its own transition."
+    },
+    {
+      "name": "Digital Codes For Trading",
+      "url": "https://osamasharaf.dev/project/digital-codes",
+      "live": "https://digital-codes.co",
+      "category": "Corporate",
+      "summary": "The official website of Digital Codes For Trading: a five-page company profile with custom animations, interactive UI and a 95+ PageSpeed score."
+    },
+    {
+      "name": "NOUÉ Chocolate Gifts",
+      "url": "https://osamasharaf.dev/project/noue",
+      "live": "https://noue-chocolate.vercel.app",
+      "category": "Brand experiences",
+      "summary": "A scroll-driven website for a chocolate gift house in Riyadh. One golden ribbon runs from the knot in the logo to the bow in the footer."
+    },
+    {
+      "name": "GHURZA Couture",
+      "url": "https://osamasharaf.dev/project/ghurza",
+      "live": "https://ghurza.vercel.app",
+      "category": "Brand experiences",
+      "summary": "An Arabic website for a Riyadh couture house, designed as a fashion magazine you browse by scrolling, with an interactive dress gallery."
+    },
+    {
+      "name": "GD Graphic Design",
+      "url": "https://osamasharaf.dev/project/gd-studio",
+      "live": "https://gd-graphic-design-company.vercel.app",
+      "category": "Brand experiences",
+      "summary": "A one-page, scroll-driven website for a graphic design studio in Riyadh. Each service has its own scene, and every scene opens with its own transition."
+    },
+    {
+      "name": "AZM Studio",
+      "url": "https://osamasharaf.dev/project/azm",
+      "live": "https://azm-builds.vercel.app",
+      "category": "Corporate",
+      "summary": "A cinematic, scroll-driven website for an architecture and interior design studio: the visitor walks from the street, through the door and into the house."
+    },
+    {
+      "name": "Reem Sharaf Portfolio",
+      "url": "https://osamasharaf.dev/project/reem-sharaf",
+      "live": "https://reemsharaf.vercel.app",
+      "category": "Portfolios",
+      "summary": "A cinematic one-page portfolio for Eng. Reem Sharaf, software engineer, AI researcher and lecturer. Sections swap in place, each with its own transition."
+    }
+  ],
+  "contact": {
+    "form": "https://osamasharaf.dev/contact",
+    "whatsapp": "https://wa.me/966508117086",
+    "linkedin": "https://linkedin.com/in/osama-sharaf-dev"
+  }
+}

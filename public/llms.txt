@@ -1,0 +1,43 @@
+# Osama Sharaf (أسامة شرف), Full Stack Developer
+
+> Osama Sharaf is a Full-Stack Engineer based in Riyadh, Saudi Arabia. He builds production websites, online stores and web apps with React, Next.js, TypeScript, Node.js, Supabase and Firebase, with a focus on speed (95+ PageSpeed), technical SEO (100/100) and polished, scroll-driven interfaces. 15+ happy clients and 10+ projects delivered. Open to freelance work and to relocation worldwide.
+
+## Key facts
+
+- Name: Osama Sharaf (Osama Abdulhalim Sharaf, أسامة شرف)
+- Role: Full Stack Developer · Web Developer · Frontend Developer
+- Current position: Full-Stack Engineer at Digital Codes For Trading, Riyadh (since June 2026)
+- Freelance: full-stack engineer on a project basis since 2024
+- Education: Bachelor of Information Technology (Software Engineering), University of Kalamoon
+- Location: Riyadh, Saudi Arabia · open to relocation
+- Languages: Arabic (native), English (professional working)
+- Contact: osamaabdulhalimsharaf@gmail.com · +966 50 811 7086 · WhatsApp https://wa.me/966508117086
+
+## Pages
+
+- [Home](https://osamasharaf.dev/): Overview, featured projects, skills and contact
+- [About](https://osamasharaf.dev/about): Background, summary and frequently asked questions
+- [Projects](https://osamasharaf.dev/projects): All projects with live links
+- [Technical skills](https://osamasharaf.dev/skills): Full tech stack
+- [How I work](https://osamasharaf.dev/how-i-work): Professional skills and process
+- [Experience](https://osamasharaf.dev/experience): Work history
+- [Education](https://osamasharaf.dev/education): Degree, certificate and certifications
+- [Contact](https://osamasharaf.dev/contact): Project inquiry form, WhatsApp, LinkedIn and email
+- [CV (PDF)](https://osamasharaf.dev/resume/OsamaSharaf.pdf): Downloadable résumé
+
+## Projects
+
+- [Milestone Store](https://osamasharaf.dev/project/milestone): A complete e-commerce platform for the Milestone kitchen-appliance brand: 250+ products, customer accounts, online ordering and a central admin dashboard. Live: https://milestone.website
+- [Milestone Showroom](https://osamasharaf.dev/project/milestone-showroom): A single-screen showroom website for Milestone. Every scroll swaps the scene in place, and every scene arrives with its own transition. Live: https://milestonechannels.netlify.app
+- [Digital Codes For Trading](https://osamasharaf.dev/project/digital-codes): The official website of Digital Codes For Trading: a five-page company profile with custom animations, interactive UI and a 95+ PageSpeed score. Live: https://digital-codes.co
+- [NOUÉ Chocolate Gifts](https://osamasharaf.dev/project/noue): A scroll-driven website for a chocolate gift house in Riyadh. One golden ribbon runs from the knot in the logo to the bow in the footer. Live: https://noue-chocolate.vercel.app
+- [GHURZA Couture](https://osamasharaf.dev/project/ghurza): An Arabic website for a Riyadh couture house, designed as a fashion magazine you browse by scrolling, with an interactive dress gallery. Live: https://ghurza.vercel.app
+- [GD Graphic Design](https://osamasharaf.dev/project/gd-studio): A one-page, scroll-driven website for a graphic design studio in Riyadh. Each service has its own scene, and every scene opens with its own transition. Live: https://gd-graphic-design-company.vercel.app
+- [AZM Studio](https://osamasharaf.dev/project/azm): A cinematic, scroll-driven website for an architecture and interior design studio: the visitor walks from the street, through the door and into the house. Live: https://azm-builds.vercel.app
+- [Reem Sharaf Portfolio](https://osamasharaf.dev/project/reem-sharaf): A cinematic one-page portfolio for Eng. Reem Sharaf, software engineer, AI researcher and lecturer. Sections swap in place, each with its own transition. Live: https://reemsharaf.vercel.app
+
+## Optional
+
+- [Full reference](https://osamasharaf.dev/llms-full.txt): Detailed profile, experience, every project and the stack behind it
+- [LinkedIn](https://linkedin.com/in/osama-sharaf-dev)
+- [GitHub](https://github.com/osamasharaf-dev)
