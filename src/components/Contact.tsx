@@ -6,7 +6,7 @@ export default function Contact({ scene = false }: { scene?: boolean }) {
   const links = [
     { icon: <LinkedIn />, label: "LinkedIn", value: "osama-sharaf-dev", href: PROFILE.linkedin },
     { icon: <WhatsApp />, label: "WhatsApp", value: PROFILE.phone, href: PROFILE.whatsapp },
-    { icon: <Mail />, label: "Email", value: "Write to me", href: `mailto:${PROFILE.email}` },
+    { icon: <Mail />, label: "Email", value: "Request a service", href: `mailto:${PROFILE.email}` },
   ];
   return (
     <section className="sec sec-lime" id="contact" data-tr="zoom" aria-labelledby="contact-title">

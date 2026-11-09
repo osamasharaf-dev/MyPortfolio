@@ -3971,3 +3971,84 @@ html.cursor-text .cur-dot span {
     line-height: 1.5;
   }
 }
+
+/* Project cards on phones (all pages): compact 2-column grid, all visible */
+@media (max-width: 759px) {
+  .swipe {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+    overflow: visible;
+    margin: 18px 0 0;
+    padding: 0;
+    scroll-snap-type: none;
+  }
+
+  .swipe-card {
+    width: auto;
+    scroll-snap-align: none;
+  }
+
+  .swipe-card .tx {
+    padding: 8px 10px 10px;
+  }
+
+  .swipe-card .tx > .m,
+  .swipe-card .tx p,
+  .swipe-card .tx .cap-btns {
+    display: none;
+  }
+
+  .swipe-card h3 {
+    font-size: 14px;
+    margin-top: 0;
+  }
+}
+
+/* Contact form: same blue and lime palette as the rest of the site */
+.form {
+  background: var(--c);
+  color: var(--s);
+  box-shadow: 0 30px 70px rgba(4, 14, 70, 0.35);
+}
+
+.form .field label,
+.form .field .lab {
+  color: var(--l);
+}
+
+.form .field label em {
+  color: rgba(246, 248, 255, 0.7);
+}
+
+.form .input {
+  background: rgba(246, 248, 255, 0.07);
+  border: 1px solid rgba(246, 248, 255, 0.3);
+  color: var(--s);
+}
+
+.form .input::placeholder {
+  color: rgba(246, 248, 255, 0.55);
+}
+
+.form .input:focus {
+  outline: none;
+  border-color: var(--l);
+  box-shadow: 0 0 0 3px rgba(204, 255, 61, 0.25);
+}
+
+.form .err {
+  color: var(--l);
+}
+
+.form .status {
+  color: var(--s);
+}
+
+.form .status.ok {
+  color: var(--l);
+}
+
+.form .sheet-close {
+  color: var(--s);
+}
