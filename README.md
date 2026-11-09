@@ -4,7 +4,6 @@ Live site: https://osamasharaf.dev
 
 ![Home page](docs/screenshots/home-desktop.png)
 
-
 Personal website of **Osama Sharaf**, Full Stack Developer in Riyadh.
 
 Built with Next.js 15 (App Router), React 19, TypeScript, GSAP and Lenis. Fonts are self-hosted, every page is statically prerendered, and the home page runs as a one-screen experience where each scroll moves to the next scene with its own transition.
@@ -14,22 +13,6 @@ Built with Next.js 15 (App Router), React 19, TypeScript, GSAP and Lenis. Fonts 
 | Desktop | Mobile |
 | --- | --- |
 | ![Projects](docs/screenshots/projects-desktop.png) | ![Home on phone](docs/screenshots/home-mobile.png) |
-
-## Run it
-
-```bash
-npm install
-npm run dev
-```
-
-Open http://localhost:3000.
-
-Production build:
-
-```bash
-npm run build
-npm start
-```
 
 ## Where to edit content
 
