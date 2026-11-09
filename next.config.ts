@@ -86,7 +86,7 @@ const nextConfig: NextConfig = {
         headers: [{ key: "Cache-Control", value: "public, max-age=31536000, immutable" }],
       },
       {
-        source: "/(og.jpg|icon-192.png|icon-512.png|llms.txt|llms-full.txt|ai-catalog.json|robots.txt)",
+        source: "/(og-share.jpg|icon-192.png|icon-512.png|llms.txt|llms-full.txt|ai-catalog.json|robots.txt)",
         headers: [{ key: "Cache-Control", value: "public, max-age=86400, stale-while-revalidate=604800" }],
       },
       {
