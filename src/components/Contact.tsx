@@ -34,6 +34,7 @@ export default function Contact({ scene = false }: { scene?: boolean }) {
                     <span className="d">
                       {l.icon}
                       {l.label}
+                      <span className="c-hint m" aria-hidden="true">Click</span>
                     </span>
                     <span className="m">
                       {l.value} <Out size={16} />

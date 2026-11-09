@@ -107,7 +107,7 @@ export default function ContactForm() {
       </div>
       <input className="hp" tabIndex={-1} autoComplete="off" aria-hidden="true" value={trap} onChange={(e) => setTrap(e.target.value)} name="website" />
       <button className="btn btn-blue send" type="submit" disabled={state === "sending"}>
-        {state === "sending" ? "Sending…" : "Send message"} <Arrow />
+        {state === "sending" ? "Sending…" : "Send my project request"} <Arrow />
       </button>
       <p className={`status${state === "sent" ? " ok" : ""}`} role="status" aria-live="polite">
         {state === "sent" ? "Thank you! Your message is on its way. I will reply within one working day." : null}

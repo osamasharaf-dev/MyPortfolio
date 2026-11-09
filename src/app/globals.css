@@ -4052,3 +4052,53 @@ html.cursor-text .cur-dot span {
 .form .sheet-close {
   color: var(--s);
 }
+
+/* Contact links: clear hover state with a "Click" hint */
+.c-links a {
+  transition: padding 0.3s var(--ease), background-color 0.3s var(--ease);
+  cursor: pointer;
+}
+
+.c-links a:hover {
+  background-color: rgba(18, 56, 214, 0.08);
+}
+
+.c-links a:hover .d svg,
+.c-links a:focus-visible .d svg {
+  transform: translateX(4px);
+}
+
+.c-hint {
+  display: inline-block;
+  margin-left: 12px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: var(--c);
+  color: var(--l);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0;
+  transform: translateX(-6px);
+  transition: opacity 0.25s var(--ease), transform 0.25s var(--ease);
+  vertical-align: middle;
+}
+
+.c-links a:hover .c-hint,
+.c-links a:focus-visible .c-hint {
+  opacity: 1;
+  transform: none;
+}
+
+/* Budget options: dark text on the white dropdown inside the blue form */
+.form .opts {
+  color: var(--ink);
+}
+
+.form .opt small {
+  color: var(--ink);
+}
+
+.form .opt .rg {
+  color: var(--c);
+}
