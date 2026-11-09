@@ -1,8 +1,19 @@
 # osamasharaf.dev
 
+Live site: https://osamasharaf.dev
+
+![Home page](docs/screenshots/home-desktop.png)
+
+
 Personal website of **Osama Sharaf**, Full Stack Developer in Riyadh.
 
 Built with Next.js 15 (App Router), React 19, TypeScript, GSAP and Lenis. Fonts are self-hosted, every page is statically prerendered, and the home page runs as a one-screen experience where each scroll moves to the next scene with its own transition.
+
+## Screenshots
+
+| Desktop | Mobile |
+| --- | --- |
+| ![Projects](docs/screenshots/projects-desktop.png) | ![Home on phone](docs/screenshots/home-mobile.png) |
 
 ## Run it
 
@@ -57,7 +68,3 @@ A mistyped address shows the 404 page, which suggests the closest real page.
 - `sitemap.xml` generated from the data files, including screenshots
 - `robots.txt` that welcomes search engines and AI answer engines
 - `llms.txt`, `llms-full.txt` and `ai-catalog.json` with a clear summary of the profile and every project
-
-## Deploy
-
-Push to GitHub and import the repository in Vercel or Netlify. No extra settings are needed besides the EmailJS variables. Point the domain `osamasharaf.dev` to the project.
