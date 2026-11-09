@@ -24,7 +24,7 @@ const hello = localFont({ src: "../fonts/great-vibes.woff2", variable: "--f-hell
 const sign = localFont({ src: "../fonts/signature.woff2", variable: "--f-sign", weight: "400", display: "swap", preload: false, fallback: ["cursive"] });
 
 const description =
-  "Osama Sharaf is a Full Stack Developer in Riyadh building fast, polished websites, online stores and web apps with React, Next.js, TypeScript and Node.js. 15+ happy clients, 10+ projects delivered.";
+  "Osama Sharaf is a Full Stack Developer in Riyadh building fast, polished websites, online stores and web apps with React, Next.js, TypeScript and Node.js. 15+ happy clients, 15+ projects delivered.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

@@ -7,7 +7,7 @@ import { PROFILE } from "@/data/profile";
 import { Down } from "@/components/Icons";
 import { crumbsLd, pageMeta } from "@/lib/seo";
 
-export const metadata = pageMeta("/experience", "Experience", "Osama Sharaf's experience: Full-Stack Engineer at Digital Codes For Trading in Riyadh, and freelance full-stack engineer delivering 10+ production projects since 2024.");
+export const metadata = pageMeta("/experience", "Experience", "Osama Sharaf's experience: Full-Stack Engineer at Digital Codes For Trading in Riyadh, and freelance full-stack engineer delivering 15+ production projects since 2024.");
 
 export default function Page() {
   return (

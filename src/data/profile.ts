@@ -60,7 +60,7 @@ export const EXPERIENCE = [
     org: "Web & Software Development",
     place: "Remote · Project-based",
     points: [
-      "Delivered 10+ production web and software projects, from planning and architecture to deployment.",
+      "Delivered 15+ production web and software projects, from planning and architecture to deployment.",
       "Built ordering platforms and admin dashboards with authentication and order management.",
       "Shipped React, Next.js and TypeScript frontends with 90+ Lighthouse performance.",
       "Cut page load times by around 30% through asset optimisation, caching and code splitting.",

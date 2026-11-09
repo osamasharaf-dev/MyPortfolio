@@ -1,6 +1,6 @@
 # Osama Sharaf (أسامة شرف), Full Stack Developer
 
-> Osama Sharaf is a Full-Stack Engineer based in Riyadh, Saudi Arabia. He builds production websites, online stores and web apps with React, Next.js, TypeScript, Node.js, Supabase and Firebase, with a focus on speed (95+ PageSpeed), technical SEO (100/100) and polished, scroll-driven interfaces. 15+ happy clients and 10+ projects delivered. Open to freelance work and to relocation worldwide.
+> Osama Sharaf is a Full-Stack Engineer based in Riyadh, Saudi Arabia. He builds production websites, online stores and web apps with React, Next.js, TypeScript, Node.js, Supabase and Firebase, with a focus on speed (95+ PageSpeed), technical SEO (100/100) and polished, scroll-driven interfaces. 15+ happy clients and 15+ projects delivered. Open to freelance work and to relocation worldwide.
 
 ## Key facts
 
