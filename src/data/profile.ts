@@ -86,8 +86,8 @@ export const WORK_SKILLS = [
 ] as const;
 
 export const BUDGETS = [
-  { id: "bronze", name: "Bronze", color: "#C98A55" },
-  { id: "silver", name: "Silver", color: "#A9B2BF" },
-  { id: "gold", name: "Gold", color: "#E2B13C" },
   { id: "unsure", name: "Not sure yet", color: "#7C8597" },
+  { id: "under10k", name: "Under 10,000 SAR", color: "#C98A55" },
+  { id: "10to15k", name: "10,000 – 15,000 SAR", color: "#A9B2BF" },
+  { id: "over15k", name: "More than 15,000 SAR", color: "#E2B13C" },
 ];

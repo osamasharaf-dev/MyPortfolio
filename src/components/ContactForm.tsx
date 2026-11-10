@@ -3,22 +3,21 @@
 import { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { BUDGETS, PROFILE } from "@/data/profile";
+import { PROJECTS } from "@/data/projects";
 import { EMAILJS_CONFIG, emailjsReady } from "@/config/emailjs";
 import BudgetSelect from "./BudgetSelect";
 import { Arrow, Check, Close } from "./Icons";
 
 type Errors = Partial<Record<"name" | "email" | "message", string>>;
 
-const REMEMBER_KEY = "os-contact-details";
-
 export default function ContactForm() {
   const [name, setName] = useState("");
   const [company, setCompany] = useState("");
   const [email, setEmail] = useState("");
   const [budget, setBudget] = useState("");
+  const [project, setProject] = useState("");
   const [message, setMessage] = useState("");
   const [trap, setTrap] = useState("");
-  const [remember, setRemember] = useState(false);
   const [errors, setErrors] = useState<Errors>({});
   const [state, setState] = useState<"idle" | "sending" | "sent" | "failed">("idle");
   const [flying, setFlying] = useState(false);
@@ -32,18 +31,6 @@ export default function ContactForm() {
   // On phones, inside the home scenes, the sheet is moved to <body> so position:fixed is not trapped by a transformed parent.
   useEffect(() => {
     setPortal(Boolean(anchor.current?.closest(".deck")) && window.matchMedia("(max-width: 759px)").matches);
-    try {
-      const raw = localStorage.getItem(REMEMBER_KEY);
-      if (raw) {
-        const d = JSON.parse(raw) as { name?: string; company?: string; email?: string };
-        setName(d.name ?? "");
-        setCompany(d.company ?? "");
-        setEmail(d.email ?? "");
-        setRemember(true);
-      }
-    } catch {
-      /* storage can be blocked; the form still works */
-    }
   }, []);
 
   useEffect(() => {
@@ -80,8 +67,9 @@ export default function ContactForm() {
     if (!validate()) return;
     const b = BUDGETS.find((x) => x.id === budget);
     const budgetText = b ? b.name : "Not specified";
+    const projectText = project || "Not specified";
     if (!emailjsReady()) {
-      const body = `Name: ${name}\nCompany: ${company || "-"}\nEmail: ${email}\nBudget: ${budgetText}\n\n${message}`;
+      const body = `Name: ${name}\nCompany: ${company || "-"}\nEmail: ${email}\nProject: ${projectText}\nBudget: ${budgetText}\n\n${message}`;
       window.location.href = `mailto:${PROFILE.email}?subject=${encodeURIComponent("New project inquiry from " + name)}&body=${encodeURIComponent(body)}`;
       return;
     }
@@ -92,23 +80,16 @@ export default function ContactForm() {
       await emailjs.send(
         EMAILJS_CONFIG.serviceId,
         EMAILJS_CONFIG.templateId,
-        { from_name: name, company: company || "-", reply_to: email, budget: budgetText, message },
+        { from_name: name, company: company || "-", reply_to: email, project: projectText, budget: budgetText, message },
         { publicKey: EMAILJS_CONFIG.publicKey },
       );
-      try {
-        if (remember) localStorage.setItem(REMEMBER_KEY, JSON.stringify({ name, company, email }));
-        else localStorage.removeItem(REMEMBER_KEY);
-      } catch {
-        /* ignore storage errors */
-      }
       setState("sent");
       setMessage("");
       setBudget("");
-      if (!remember) {
-        setName("");
-        setCompany("");
-        setEmail("");
-      }
+      setProject("");
+      setName("");
+      setCompany("");
+      setEmail("");
       setTimeout(() => setFlying(false), 2800);
     } catch {
       setFlying(false);
@@ -148,6 +129,20 @@ export default function ContactForm() {
             </span>
           ) : null}
         </div>
+        <div className="field">
+          <label htmlFor="f-project">
+            Project you like <em>(optional)</em>
+          </label>
+          <select id="f-project" className="input select-native" value={project} onChange={(e) => setProject(e.target.value)}>
+            <option value="">Choose a project</option>
+            {PROJECTS.map((x) => (
+              <option key={x.slug} value={x.name}>
+                {x.name}
+              </option>
+            ))}
+            <option value="Not sure yet">Not sure yet</option>
+          </select>
+        </div>
         <BudgetSelect value={budget} onChange={setBudget} />
         <div className="field">
           <label htmlFor="f-msg">Project details</label>
@@ -158,11 +153,6 @@ export default function ContactForm() {
             </span>
           ) : null}
         </div>
-        <label className="remember">
-          <input type="checkbox" checked={remember} onChange={(e) => setRemember(e.target.checked)} />
-          <span>Remember my details on this device</span>
-          <em>(optional)</em>
-        </label>
         <input className="hp" tabIndex={-1} autoComplete="off" aria-hidden="true" value={trap} onChange={(e) => setTrap(e.target.value)} name="website" />
         <button ref={sendRef} className={`btn btn-blue send${flying ? " fly" : ""}${state === "sent" ? " done" : ""}`} type="submit" disabled={state === "sending" || state === "sent"}>
           {state === "sending" ? (
@@ -193,7 +183,7 @@ export default function ContactForm() {
     <>
       <div ref={anchor}>
         <button type="button" className="btn btn-blue form-open" onClick={() => setSheet(true)} aria-haspopup="dialog">
-          Write me a message <Arrow />
+          Request a service <Arrow />
         </button>
       </div>
       {portal ? createPortal(sheetNode, document.body) : sheetNode}
