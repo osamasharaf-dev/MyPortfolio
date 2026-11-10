@@ -4293,3 +4293,111 @@ main > section .title {
   background: #ffffff;
   color: var(--c);
 }
+
+/* ---------- Project pages: lighter title, one large screen, equal thumbnails ---------- */
+.case-title {
+  font-size: clamp(30px, 4.4vw, 64px);
+}
+
+.case-head {
+  padding-top: clamp(104px, 10vw, 130px);
+}
+
+.viewer {
+  margin-top: clamp(22px, 3vw, 36px);
+  max-width: none;
+}
+
+.stage {
+  margin: 0;
+}
+
+.stage-img {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  max-height: 62vh;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #0b27a3;
+  box-shadow: 0 28px 60px rgba(4, 14, 70, 0.4);
+}
+
+.stage-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
+}
+
+.stage-img.phone {
+  width: auto;
+  aspect-ratio: auto;
+  height: min(62vh, 600px);
+  max-height: none;
+  margin: 0 auto;
+  background: transparent;
+  box-shadow: none;
+}
+
+.stage-img.phone img {
+  width: auto;
+  height: 100%;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+.thumb-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(clamp(92px, 12vw, 160px), 1fr));
+  gap: clamp(8px, 1vw, 12px);
+  margin-top: clamp(14px, 2vw, 20px);
+}
+
+.thumb {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  padding: 0;
+  border: 2px solid transparent;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #0b27a3;
+  cursor: pointer;
+  opacity: 0.72;
+  transition: opacity 0.25s, border-color 0.25s, transform 0.25s var(--ease);
+}
+
+.thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
+}
+
+.thumb:hover,
+.thumb:focus-visible {
+  opacity: 1;
+  transform: translateY(-2px);
+}
+
+.thumb[aria-current="true"] {
+  opacity: 1;
+  border-color: var(--l);
+}
+
+@media (max-width: 759px) {
+  .case-title {
+    font-size: clamp(28px, 8.4vw, 40px);
+  }
+
+  .stage-img {
+    max-height: 48vh;
+    border-radius: 16px;
+  }
+
+  .thumb-grid {
+    grid-template-columns: repeat(auto-fill, minmax(84px, 1fr));
+  }
+}
