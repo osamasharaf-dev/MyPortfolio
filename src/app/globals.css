@@ -1886,7 +1886,7 @@ main > .sec {
 }
 
 .page-title {
-  font-size: clamp(40px, 11vw, 168px);
+  font-size: clamp(34px, 6.2vw, 88px);
 }
 
 .page-lead {
@@ -1979,7 +1979,7 @@ main > .sec {
 }
 
 .case-title {
-  font-size: clamp(38px, 9.6vw, 150px);
+  font-size: clamp(32px, 5.4vw, 78px);
 }
 
 .case-meta {
@@ -4100,5 +4100,196 @@ html.cursor-text .cur-dot span {
 }
 
 .form .opt .rg {
+  color: var(--c);
+}
+
+/* Subpages: section titles a bit smaller so content starts higher */
+main > section .title {
+  font-size: clamp(32px, 5.2vw, 74px);
+}
+
+/* Project cards: role and category sit side by side */
+.card-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.card-role {
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  opacity: 0.85;
+}
+
+@media (max-width: 759px) {
+  .swipe-card .tx > .card-meta {
+    display: flex;
+    flex-direction: column;
+    font-size: 11px;
+    margin-bottom: 2px;
+  }
+
+  .swipe-card .card-role {
+    font-size: 11px;
+    line-height: 1.35;
+    color: var(--cd);
+  }
+}
+
+/* ---------- Contact form: white fields, optional checkbox, send animation ---------- */
+.form .input,
+.form .select-btn {
+  background: #ffffff;
+  color: #000000;
+  border: 1px solid #ffffff;
+}
+
+.form .input::placeholder {
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.form .input:focus,
+.form .select-btn:focus-visible {
+  outline: none;
+  border-color: var(--l);
+  box-shadow: 0 0 0 3px rgba(204, 255, 61, 0.45);
+}
+
+.form .select-btn .v,
+.form .select-btn svg {
+  color: #000000;
+}
+
+.form .opts {
+  color: #000000;
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 14px 0 6px;
+  font-size: 14px;
+  color: var(--s);
+  cursor: pointer;
+}
+
+.remember input {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--l);
+  cursor: pointer;
+}
+
+.remember em {
+  opacity: 0.7;
+}
+
+/* Sheet portalled to body on phones */
+.sheet.portal {
+  position: fixed;
+  inset: 0;
+  z-index: 95;
+  background: rgba(9, 31, 134, 0.6);
+  display: flex;
+  align-items: flex-end;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s, visibility 0s 0.3s;
+}
+
+.sheet.portal.open {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.sheet.portal .form {
+  width: 100%;
+  max-height: 92dvh;
+  overflow-y: auto;
+  border-radius: 26px 26px 0 0;
+  position: relative;
+  transform: translateY(100%);
+  transition: transform 0.45s var(--ease);
+  padding-top: 58px;
+}
+
+.sheet.portal.open .form {
+  transform: translateY(0);
+}
+
+.sheet.portal .sheet-close {
+  display: grid;
+  place-items: center;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 0;
+  background: var(--l);
+  color: var(--c);
+}
+
+/* Send button: flies to the centre of the form, then shows a spinner and a check */
+.send {
+  position: relative;
+  transition: transform 0.75s cubic-bezier(0.2, 0.8, 0.2, 1), background-color 0.4s, color 0.4s;
+}
+
+.send.fly {
+  transform: translate(var(--fx, 0px), var(--fy, 0px)) scale(1.08) rotate(-3deg);
+}
+
+.send.done {
+  background: var(--l);
+  color: var(--c);
+  opacity: 1;
+}
+
+.send:disabled {
+  cursor: default;
+}
+
+.spin {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 3px solid rgba(18, 56, 214, 0.25);
+  border-top-color: var(--c);
+  animation: spinRing 0.8s linear infinite;
+  flex: none;
+}
+
+@keyframes spinRing {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .send,
+  .send.fly {
+    transition: none;
+    transform: none;
+  }
+
+  .spin {
+    animation-duration: 2.4s;
+  }
+}
+
+.form .send {
+  background: var(--l);
+  color: var(--c);
+  width: 100%;
+  justify-content: center;
+}
+
+.form .send.done {
+  background: #ffffff;
   color: var(--c);
 }

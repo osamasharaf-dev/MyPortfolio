@@ -9,6 +9,7 @@ export default function Projects({ explore = true, scene = false, head = true }:
     name: p.name,
     cat: p.cat,
     year: p.year,
+    role: p.role,
     summary: p.summary,
     cover: p.cover,
     live: p.live,

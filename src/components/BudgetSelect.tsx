@@ -71,7 +71,7 @@ export default function BudgetSelect({ value, onChange }: { value: string; onCha
       >
         <span className="v" id={`${id}-v`}>
           {cur ? <span className="medal" style={{ background: cur.color }} /> : null}
-          <span>{cur ? `${cur.name} · ${cur.range}` : "Choose a budget range"}</span>
+          <span>{cur ? cur.name : "Choose a package"}</span>
         </span>
         <Chevron />
       </button>
@@ -90,8 +90,6 @@ export default function BudgetSelect({ value, onChange }: { value: string; onCha
               <span className="medal" style={{ background: b.color }} />
               <span>
                 <b>{b.name}</b>
-                <span className="rg">{b.range}</span>
-                <small>{b.text}</small>
               </span>
               <span>{b.id === value ? <Check /> : null}</span>
             </li>

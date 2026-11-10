@@ -12,6 +12,7 @@ export type FanItem = {
   name: string;
   cat: string;
   year: string;
+  role: string;
   summary: string;
   cover: string;
   live: string;
@@ -275,8 +276,11 @@ export default function FanGallery({
               <Image src={p.cover} alt={`${p.name} website`} width={1600} height={1000} sizes="82vw" />
             </Link>
             <div className="tx">
-              <span className="m">
-                {p.cat} · {p.year}
+              <span className="card-meta m">
+                <span>
+                  {p.cat} · {p.year}
+                </span>
+                <span className="card-role">{p.role}</span>
               </span>
               <h3 className="d" style={{ marginTop: 6 }}>
                 {p.name}

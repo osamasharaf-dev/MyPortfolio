@@ -86,8 +86,8 @@ export const WORK_SKILLS = [
 ] as const;
 
 export const BUDGETS = [
-  { id: "bronze", name: "Bronze", range: "Under 8,000 SAR", text: "Landing page or portfolio, up to 5 sections", color: "#C98A55" },
-  { id: "silver", name: "Silver", range: "8,000 – 15,000 SAR", text: "Business website in Arabic and English, with CMS", color: "#A9B2BF" },
-  { id: "gold", name: "Gold", range: "15,000+ SAR", text: "Web app or e-commerce with a dashboard", color: "#E2B13C" },
-  { id: "unsure", name: "Not sure yet", range: "Let's talk", text: "We will scope it together on a call", color: "#7C8597" },
+  { id: "bronze", name: "Bronze", color: "#C98A55" },
+  { id: "silver", name: "Silver", color: "#A9B2BF" },
+  { id: "gold", name: "Gold", color: "#E2B13C" },
+  { id: "unsure", name: "Not sure yet", color: "#7C8597" },
 ];
