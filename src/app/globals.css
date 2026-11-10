@@ -4401,3 +4401,58 @@ main > section .title {
     grid-template-columns: repeat(auto-fill, minmax(84px, 1fr));
   }
 }
+
+/* Project screen: show the whole screenshot, sized to fit the viewport (no cropping) */
+.stage-img {
+  aspect-ratio: auto;
+  max-height: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(8px, 1.2vw, 16px);
+  background: #0b27a3;
+}
+
+.stage-img img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 60vh;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 10px;
+}
+
+.stage-img.phone {
+  padding: 0;
+}
+
+.stage-img.phone img {
+  max-height: 62vh;
+}
+
+@media (max-width: 759px) {
+  .stage-img img {
+    max-height: 52vh;
+  }
+}
+
+/* Desktop and tablet: the whole screenshot fits in the first screen, without scrolling */
+@media (min-width: 760px) {
+  .case-head {
+    padding-top: clamp(96px, 9vw, 116px);
+    padding-bottom: clamp(28px, 3vw, 44px);
+  }
+
+  .case-head .viewer {
+    margin-top: clamp(16px, 2vw, 26px);
+  }
+
+  .stage-img img {
+    max-height: clamp(220px, calc(100vh - 600px), 640px);
+  }
+
+  .stage-img.phone img {
+    max-height: clamp(220px, calc(100vh - 600px), 640px);
+  }
+}
