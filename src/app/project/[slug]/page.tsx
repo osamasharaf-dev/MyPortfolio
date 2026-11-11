@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import ProjectViewer from "@/components/ProjectViewer";
+import CaseDots from "@/components/CaseDots";
 import BrandGuide from "@/components/BrandGuide";
 import NextPage from "@/components/NextPage";
 import Motion from "@/components/Motion";
@@ -40,8 +41,8 @@ export default async function Page({ params }: Props) {
     <>
       <JsonLd data={projectLd(p)} />
       <JsonLd data={crumbsLd([{ name: "Projects", path: "/projects" }, { name: p.name, path: `/project/${p.slug}` }])} />
-      <section className="case-head sec-blue grid-bg" style={{ paddingBottom: "clamp(60px, 8vw, 110px)" }}>
-        <div className="wrap">
+      <section className="case-head case-hero sec-blue grid-bg" id="overview">
+        <div className="wrap case-hero-in">
           <nav className="crumbs m" aria-label="Breadcrumb">
             <Link href="/">Home</Link>
             <span aria-hidden="true">/</span>
@@ -49,45 +50,39 @@ export default async function Page({ params }: Props) {
             <span aria-hidden="true">/</span>
             <span aria-current="page">{p.short}</span>
           </nav>
-          <span className="eyebrow m">
-            {p.cat} · {p.year}
-          </span>
-          <h1 className="case-title d">{p.name}</h1>
-          <p className="page-lead">{p.tagline}</p>
-          <dl className="case-meta m">
-            <div>
-              <dt>Role</dt>
-              <dd>{p.role}</dd>
+          <div className="case-top">
+            <div className="case-id">
+              <h1 className="case-title d">{p.name}</h1>
+              <p className="case-lead">{p.tagline}</p>
             </div>
-            <div>
-              <dt>Year</dt>
-              <dd>{p.year}</dd>
-            </div>
-            <div>
-              <dt>Category</dt>
-              <dd>{p.cat}</dd>
-            </div>
-            <div>
-              <dt>Live site</dt>
-              <dd>
+            <ul className="case-chips m" aria-label="Project details">
+              <li>
+                <span>Role</span> {p.role}
+              </li>
+              <li>
+                <span>Category</span> {p.cat}
+              </li>
+              <li>
                 <a href={p.live} target="_blank" rel="noopener noreferrer">
-                  {host} ↗
+                  <span>Live</span> {host} ↗
                 </a>
-              </dd>
-            </div>
-          </dl>
-          <ProjectViewer images={p.images} name={p.name} live={p.live} />
-          <div style={{ display: "flex", gap: 10, flexWrap: "wrap", marginTop: 30 }}>
-            <a className="btn btn-lime" href={p.live} target="_blank" rel="noopener noreferrer">
-              Visit the live site <Out />
-            </a>
-            <Link className="btn btn-line" href="/contact">
-              Start a similar project
-            </Link>
+              </li>
+            </ul>
           </div>
-          <a className="scroll-hint m" href="#story">
-            Scroll for the story, colours and fonts <Down size={16} />
-          </a>
+          <ProjectViewer images={p.images} name={p.name} live={p.live} />
+          <div className="case-actions">
+            <div className="case-btns">
+              <a className="btn btn-lime btn-sm" href={p.live} target="_blank" rel="noopener noreferrer">
+                Visit the live site <Out />
+              </a>
+              <Link className="btn btn-line btn-sm" href="/contact">
+                Start a similar project
+              </Link>
+            </div>
+            <a className="scroll-hint m" href="#story">
+              Scroll for the story, colours and fonts <Down size={16} />
+            </a>
+          </div>
         </div>
       </section>
 
@@ -129,7 +124,7 @@ export default async function Page({ params }: Props) {
       </section>
 
       {brand ? (
-        <section className="sec sec-deep grid-bg" aria-labelledby="brand-title">
+        <section className="sec sec-deep grid-bg" id="style" aria-labelledby="brand-title">
           <div className="wrap">
             <div className="head">
               <div>
@@ -156,6 +151,7 @@ export default async function Page({ params }: Props) {
         </Link>
       </nav>
       <NextPage href="/contact" label="Let's talk" kicker="Have a project like this?" />
+      <CaseDots hasStyle={Boolean(brand)} />
       <Motion />
     </>
   );
