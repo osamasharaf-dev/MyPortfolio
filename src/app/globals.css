@@ -4494,3 +4494,28 @@ main > section .title {
     white-space: nowrap;
   }
 }
+
+/* Laptop and tablet: medium, centred main screenshot with small thumbnails under it */
+@media (min-width: 760px) {
+  .stage-img {
+    width: fit-content;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .stage-img img,
+  .stage-img.phone img {
+    max-height: clamp(300px, 52vh, 560px);
+  }
+
+  .thumb-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .thumb {
+    width: clamp(84px, 7.5vw, 112px);
+  }
+}
