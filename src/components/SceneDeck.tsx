@@ -208,7 +208,7 @@ export default function SceneDeck({ scenes, children }: { scenes: Scene[]; child
     let accT = 0;
     const onWheel = (e: WheelEvent) => {
       if (root.style.overflow === "hidden" && document.querySelector(".menu.open")) return;
-      if ((e.target as HTMLElement).closest(".opts, .sheet, .thumbs, .swipe")) return;
+      if ((e.target as HTMLElement).closest(".opts, .sheet, .thumbs")) return;
       const dir = Math.sign(e.deltaY);
       if (!dir || canScroll(dir)) return;
       const now = performance.now();
@@ -233,7 +233,7 @@ export default function SceneDeck({ scenes, children }: { scenes: Scene[]; child
       startCan = { up: canScroll(-1), down: canScroll(1) };
     };
     const onTouchEnd = (e: TouchEvent) => {
-      if ((e.target as HTMLElement).closest(".opts, .sheet, .swipe, .thumbs, .lightbox")) return;
+      if ((e.target as HTMLElement).closest(".opts, .sheet, .thumbs, .lightbox")) return;
       const dy = ty - e.changedTouches[0].clientY;
       const dx = tx - e.changedTouches[0].clientX;
       if (Math.abs(dy) < 50 || Math.abs(dx) > Math.abs(dy)) return;
