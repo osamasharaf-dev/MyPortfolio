@@ -4519,3 +4519,31 @@ main > section .title {
     width: clamp(84px, 7.5vw, 112px);
   }
 }
+
+/* Project pages: hint that the story, colours and fonts are further down */
+.scroll-hint {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: clamp(20px, 3vw, 30px);
+  color: var(--l);
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.scroll-hint svg {
+  animation: hintBob 1.6s ease-in-out infinite;
+}
+
+@keyframes hintBob {
+  50% {
+    transform: translateY(5px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scroll-hint svg {
+    animation: none;
+  }
+}

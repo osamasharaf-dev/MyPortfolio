@@ -56,6 +56,20 @@ export const BRANDS: Record<string, Brand> = {
       { hex: "#FFF6E8", name: "Cream" },
     ],
   },
+  oze: {
+    fonts: [
+      { name: "Abril Fatface", role: "Display headings", google: "Abril+Fatface", fallback: "'Abril Fatface', Georgia, serif" },
+      { name: "Jost", role: "Body text", google: "Jost:wght@500", fallback: "'Jost', system-ui, sans-serif" },
+    ],
+    colors: [
+      { hex: "#C9973F", name: "Gold" },
+      { hex: "#E3262F", name: "Seal red" },
+      { hex: "#2B1A10", name: "Cocoa ink" },
+      { hex: "#A8761F", name: "Deep gold" },
+      { hex: "#ECC987", name: "Light gold" },
+      { hex: "#FFFDF8", name: "Cream" },
+    ],
+  },
   ghurza: {
     fonts: [
       { name: "Typokar", role: "Arabic display", fallback: "'Segoe UI', Tahoma, sans-serif", sample: "غرزة" },

@@ -6,7 +6,7 @@ import BrandGuide from "@/components/BrandGuide";
 import NextPage from "@/components/NextPage";
 import Motion from "@/components/Motion";
 import JsonLd from "@/components/JsonLd";
-import { Check, Out } from "@/components/Icons";
+import { Check, Down, Out } from "@/components/Icons";
 import { PROJECTS, getProject } from "@/data/projects";
 import { BRANDS, brandFontsHref } from "@/data/brand";
 import { crumbsLd, pageMeta, projectLd } from "@/lib/seo";
@@ -85,10 +85,13 @@ export default async function Page({ params }: Props) {
               Start a similar project
             </Link>
           </div>
+          <a className="scroll-hint m" href="#story">
+            Scroll for the story, colours and fonts <Down size={16} />
+          </a>
         </div>
       </section>
 
-      <section className="sec sec-light grid-bg-c" aria-labelledby="ov-title">
+      <section className="sec sec-light grid-bg-c" id="story" aria-labelledby="ov-title">
         <div className="wrap">
           <div className="case-cols">
             <div data-rise>

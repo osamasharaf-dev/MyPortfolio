@@ -20,6 +20,8 @@ const slugAliases: Record<string, string> = {
   noue: "noue",
   "noue-chocolate": "noue",
   chocolate: "noue",
+  "oze-chocolate": "oze",
+  "oze-ksa": "oze",
   azm: "azm",
   "azm-studio": "azm",
   reem: "reem-sharaf",

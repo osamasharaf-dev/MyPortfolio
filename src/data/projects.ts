@@ -17,7 +17,7 @@ export type Project = {
   images: ProjectImage[];
 };
 
-export const CATEGORIES = ["All", "E-commerce", "Corporate", "Brand experiences", "Portfolios"] as const;
+export const CATEGORIES = ["All", "E-commerce", "Brands", "Corporate", "Portfolios"] as const;
 
 export const PROJECTS: Project[] = [
   {
@@ -120,7 +120,7 @@ export const PROJECTS: Project[] = [
     "slug": "milestone-showroom",
     "name": "Milestone Showroom",
     "short": "Showroom",
-    "cat": "Brand experiences",
+    "cat": "Brands",
     "year": "2026",
     "role": "Web Developer and Designer",
     "live": "https://milestonechannels.netlify.app",
@@ -289,7 +289,7 @@ export const PROJECTS: Project[] = [
     "slug": "noue",
     "name": "NOUÉ Chocolate Gifts",
     "short": "NOUÉ",
-    "cat": "Brand experiences",
+    "cat": "Brands",
     "year": "2026",
     "role": "Web Developer and Designer",
     "live": "https://noue-chocolate.vercel.app",
@@ -409,10 +409,99 @@ export const PROJECTS: Project[] = [
     ]
   },
   {
+    "slug": "oze",
+    "name": "OZE Chocolate",
+    "short": "OZE",
+    "cat": "Brands",
+    "year": "2026",
+    "role": "Web Developer and Designer",
+    "live": "https://oze-chocolate.vercel.app",
+    "tagline": "Premium Swiss chocolate in Riyadh, told one scene at a time.",
+    "summary": "A one-page scroll website for OZE, a premium Swiss chocolate shop in Riyadh, in English and Arabic, with signature flavours, occasions and WhatsApp ordering.",
+    "overview": "Each scroll swaps the scene: melted chocolate pours over the opening, the red OZE seal is pressed by hand, then six signature flavours arrive one by one. A gift box unties itself to lead into weddings, engagements, gatherings and gifts, and the page closes with bespoke orders, a map and a request form.",
+    "features": [
+      "Scene-by-scene scroll story with video openings",
+      "Six signature flavours with their own frames",
+      "Gift box that opens into four occasions",
+      "Full Arabic (right-to-left) version",
+      "WhatsApp ordering, request form and live map",
+      "SEO, llms.txt and sitemap with product images"
+    ],
+    "metrics": [
+      { "value": "6", "label": "Signature flavours" },
+      { "value": "4", "label": "Occasions" },
+      { "value": "2", "label": "Languages" }
+    ],
+    "stack": ["HTML", "CSS", "JavaScript", "GSAP", "MapLibre", "Vercel"],
+    "cover": "/images/projects/oze/cover.webp",
+    "images": [
+      {
+        "src": "/images/projects/oze/01.webp",
+        "width": 1440,
+        "height": 900,
+        "mobile": false
+      },
+      {
+        "src": "/images/projects/oze/02.webp",
+        "width": 1440,
+        "height": 900,
+        "mobile": false
+      },
+      {
+        "src": "/images/projects/oze/03.webp",
+        "width": 1440,
+        "height": 900,
+        "mobile": false
+      },
+      {
+        "src": "/images/projects/oze/04.webp",
+        "width": 1440,
+        "height": 900,
+        "mobile": false
+      },
+      {
+        "src": "/images/projects/oze/05.webp",
+        "width": 1440,
+        "height": 900,
+        "mobile": false
+      },
+      {
+        "src": "/images/projects/oze/06.webp",
+        "width": 1440,
+        "height": 900,
+        "mobile": false
+      },
+      {
+        "src": "/images/projects/oze/07.webp",
+        "width": 1440,
+        "height": 900,
+        "mobile": false
+      },
+      {
+        "src": "/images/projects/oze/08.webp",
+        "width": 1440,
+        "height": 900,
+        "mobile": false
+      },
+      {
+        "src": "/images/projects/oze/09.webp",
+        "width": 1440,
+        "height": 900,
+        "mobile": false
+      },
+      {
+        "src": "/images/projects/oze/10.webp",
+        "width": 1440,
+        "height": 900,
+        "mobile": false
+      }
+    ]
+  },
+  {
     "slug": "ghurza",
     "name": "GHURZA Couture",
     "short": "GHURZA",
-    "cat": "Brand experiences",
+    "cat": "Corporate",
     "year": "2026",
     "role": "Web Developer and Designer",
     "live": "https://ghurza.vercel.app",
@@ -511,7 +600,7 @@ export const PROJECTS: Project[] = [
     "slug": "gd-studio",
     "name": "GD Graphic Design",
     "short": "GD Studio",
-    "cat": "Brand experiences",
+    "cat": "Corporate",
     "year": "2026",
     "role": "Web Developer and Designer",
     "live": "https://gd-graphic-design-company.vercel.app",
@@ -805,6 +894,6 @@ export const PROJECTS: Project[] = [
   }
 ];
 
-export const FAN_ORDER = ["ghurza", "gd-studio", "milestone", "azm", "noue", "milestone-showroom", "digital-codes", "reem-sharaf"];
+export const FAN_ORDER = ["ghurza", "gd-studio", "milestone", "oze", "azm", "noue", "milestone-showroom", "digital-codes", "reem-sharaf"];
 
 export const getProject = (slug: string) => PROJECTS.find((p) => p.slug === slug);
