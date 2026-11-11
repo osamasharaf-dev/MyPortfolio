@@ -43,42 +43,49 @@
       "name": "Milestone Showroom",
       "url": "https://osamasharaf.dev/project/milestone-showroom",
       "live": "https://milestonechannels.netlify.app",
-      "category": "Brand experiences",
+      "category": "Brands",
       "summary": "A single-screen showroom website for Milestone. Every scroll swaps the scene in place, and every scene arrives with its own transition."
     },
     {
       "name": "Digital Codes For Trading",
       "url": "https://osamasharaf.dev/project/digital-codes",
       "live": "https://digital-codes.co",
-      "category": "Corporate",
+      "category": "Companies",
       "summary": "The official website of Digital Codes For Trading: a five-page company profile with custom animations, interactive UI and a 95+ PageSpeed score."
     },
     {
       "name": "NOUÉ Chocolate Gifts",
       "url": "https://osamasharaf.dev/project/noue",
       "live": "https://noue-chocolate.vercel.app",
-      "category": "Brand experiences",
+      "category": "Brands",
       "summary": "A scroll-driven website for a chocolate gift house in Riyadh. One golden ribbon runs from the knot in the logo to the bow in the footer."
+    },
+    {
+      "name": "OZE Chocolate",
+      "url": "https://osamasharaf.dev/project/oze",
+      "live": "https://oze-chocolate.vercel.app",
+      "category": "Brands",
+      "summary": "A one-page scroll website for OZE, a premium Swiss chocolate shop in Riyadh, in English and Arabic, with signature flavours, occasions and WhatsApp ordering."
     },
     {
       "name": "GHURZA Couture",
       "url": "https://osamasharaf.dev/project/ghurza",
       "live": "https://ghurza.vercel.app",
-      "category": "Brand experiences",
+      "category": "Companies",
       "summary": "An Arabic website for a Riyadh couture house, designed as a fashion magazine you browse by scrolling, with an interactive dress gallery."
     },
     {
       "name": "GD Graphic Design",
       "url": "https://osamasharaf.dev/project/gd-studio",
       "live": "https://gd-graphic-design-company.vercel.app",
-      "category": "Brand experiences",
+      "category": "Companies",
       "summary": "A one-page, scroll-driven website for a graphic design studio in Riyadh. Each service has its own scene, and every scene opens with its own transition."
     },
     {
       "name": "AZM Studio",
       "url": "https://osamasharaf.dev/project/azm",
       "live": "https://azm-builds.vercel.app",
-      "category": "Corporate",
+      "category": "Companies",
       "summary": "A cinematic, scroll-driven website for an architecture and interior design studio: the visitor walks from the street, through the door and into the house."
     },
     {

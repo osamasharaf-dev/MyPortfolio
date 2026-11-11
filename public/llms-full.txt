@@ -85,7 +85,7 @@ Time management, teamwork, project management, clear communication, problem solv
 - Deployment, hosting, domain setup and ongoing production support
 - Stack: React, TypeScript, Node.js, REST APIs, Tailwind CSS, Authentication, Technical SEO
 
-### Milestone Showroom (Brand experiences, 2026)
+### Milestone Showroom (Brands, 2026)
 - Page: https://osamasharaf.dev/project/milestone-showroom
 - Live: https://milestonechannels.netlify.app
 - Role: Full-Stack Engineer
@@ -99,7 +99,7 @@ Time management, teamwork, project management, clear communication, problem solv
 - SEO, AEO and GEO files with structured data
 - Stack: HTML, CSS, JavaScript, GSAP, Observer, Netlify
 
-### Digital Codes For Trading (Corporate, 2026)
+### Digital Codes For Trading (Companies, 2026)
 - Page: https://osamasharaf.dev/project/digital-codes
 - Live: https://digital-codes.co
 - Role: Full-Stack Engineer
@@ -112,7 +112,7 @@ Time management, teamwork, project management, clear communication, problem solv
 - Deployment, domain setup and ongoing maintenance
 - Stack: React, TypeScript, Motion, Tailwind CSS, Technical SEO, Core Web Vitals
 
-### NOUÉ Chocolate Gifts (Brand experiences, 2026)
+### NOUÉ Chocolate Gifts (Brands, 2026)
 - Page: https://osamasharaf.dev/project/noue
 - Live: https://noue-chocolate.vercel.app
 - Role: Full-Stack Engineer · UI/UX
@@ -125,7 +125,7 @@ Time management, teamwork, project management, clear communication, problem solv
 - Statically prerendered and fully responsive
 - Stack: Next.js, React, GSAP, ScrollTrigger, Lenis, Vercel
 
-### GHURZA Couture (Brand experiences, 2026)
+### GHURZA Couture (Companies, 2026)
 - Page: https://osamasharaf.dev/project/ghurza
 - Live: https://ghurza.vercel.app
 - Role: Full-Stack Engineer · UI/UX
@@ -138,7 +138,7 @@ Time management, teamwork, project management, clear communication, problem solv
 - No framework, plain and fast
 - Stack: HTML, CSS, JavaScript, GSAP, ScrollTrigger, Lenis
 
-### GD Graphic Design (Brand experiences, 2026)
+### GD Graphic Design (Companies, 2026)
 - Page: https://osamasharaf.dev/project/gd-studio
 - Live: https://gd-graphic-design-company.vercel.app
 - Role: Full-Stack Engineer · UI/UX
@@ -151,7 +151,7 @@ Time management, teamwork, project management, clear communication, problem solv
 - Static export, hosted on Vercel
 - Stack: Next.js, React, TypeScript, GSAP, Lenis, Vercel
 
-### AZM Studio (Corporate, 2026)
+### AZM Studio (Companies, 2026)
 - Page: https://osamasharaf.dev/project/azm
 - Live: https://azm-builds.vercel.app
 - Role: Full-Stack Engineer · UI/UX

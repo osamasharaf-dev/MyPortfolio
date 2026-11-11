@@ -7,6 +7,7 @@ import Loader from "@/components/Loader";
 import SmoothScroll from "@/components/SmoothScroll";
 import JsonLd from "@/components/JsonLd";
 import Cursor from "@/components/Cursor";
+import BackToTop from "@/components/BackToTop";
 import { SITE_URL } from "@/data/profile";
 import { OG, siteLd } from "@/lib/seo";
 
@@ -24,19 +25,19 @@ const hello = localFont({ src: "../fonts/great-vibes.woff2", variable: "--f-hell
 const sign = localFont({ src: "../fonts/signature.woff2", variable: "--f-sign", weight: "400", display: "swap", preload: false, fallback: ["cursive"] });
 
 const description =
-  "Osama Sharaf, Full Stack Developer, Full-Stack Engineer, Web Developer and Frontend Developer in Riyadh. Fast, polished websites, online stores and web apps with Next.js, TypeScript, Node.js and Supabase. 15+ happy clients, 15+ projects delivered.";
+  "Full Stack Developer, Full-Stack Engineer, Web Developer and Frontend Developer based in Riyadh, Saudi Arabia (open to relocate). Fast, polished websites, online stores and web apps with Next.js, TypeScript, Node.js and Supabase. 15+ happy clients, 15+ projects delivered.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: { default: "Osama Sharaf · Full Stack Developer in Riyadh", template: "%s · Osama Sharaf" },
+  title: { default: "Osama Sharaf · Full Stack Developer", template: "%s · Osama Sharaf" },
   description,
   applicationName: "Osama Sharaf",
   authors: [{ name: "Osama Sharaf", url: SITE_URL }],
   creator: "Osama Sharaf",
   keywords: ["Osama Sharaf", "أسامة شرف", "Full Stack Developer", "Web Developer", "Frontend Developer", "Next.js developer Riyadh", "React developer Saudi Arabia", "freelance web developer Riyadh", "e-commerce developer"],
   alternates: { canonical: "/" },
-  openGraph: { type: "profile", url: "/", siteName: "Osama Sharaf", title: "Osama Sharaf · Full Stack Developer in Riyadh", description, images: [OG], locale: "en_US", firstName: "Osama", lastName: "Sharaf" },
-  twitter: { card: "summary_large_image", title: "Osama Sharaf · Full Stack Developer in Riyadh", description, images: [OG.url] },
+  openGraph: { type: "profile", url: "/", siteName: "Osama Sharaf", title: "Osama Sharaf · Full Stack Developer", description, images: [OG], locale: "en_US", firstName: "Osama", lastName: "Sharaf" },
+  twitter: { card: "summary_large_image", title: "Osama Sharaf · Full Stack Developer", description, images: [OG.url] },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1, "max-video-preview": -1 } },
   category: "technology",
   other: { "llms-txt": `${SITE_URL}/llms.txt` },
@@ -68,6 +69,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Header />
         <main id="main">{children}</main>
         <Footer />
+        <BackToTop />
         <Cursor />
       </body>
     </html>

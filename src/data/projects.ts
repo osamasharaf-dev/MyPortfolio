@@ -17,7 +17,7 @@ export type Project = {
   images: ProjectImage[];
 };
 
-export const CATEGORIES = ["All", "E-commerce", "Brands", "Corporate", "Portfolios"] as const;
+export const CATEGORIES = ["All", "E-commerce", "Brands", "Companies", "Portfolios"] as const;
 
 export const PROJECTS: Project[] = [
   {
@@ -226,7 +226,7 @@ export const PROJECTS: Project[] = [
     "slug": "digital-codes",
     "name": "Digital Codes For Trading",
     "short": "Digital Codes",
-    "cat": "Corporate",
+    "cat": "Companies",
     "year": "2026",
     "role": "Web Developer and Designer",
     "live": "https://digital-codes.co",
@@ -501,7 +501,7 @@ export const PROJECTS: Project[] = [
     "slug": "ghurza",
     "name": "GHURZA Couture",
     "short": "GHURZA",
-    "cat": "Corporate",
+    "cat": "Companies",
     "year": "2026",
     "role": "Web Developer and Designer",
     "live": "https://ghurza.vercel.app",
@@ -600,7 +600,7 @@ export const PROJECTS: Project[] = [
     "slug": "gd-studio",
     "name": "GD Graphic Design",
     "short": "GD Studio",
-    "cat": "Corporate",
+    "cat": "Companies",
     "year": "2026",
     "role": "Web Developer and Designer",
     "live": "https://gd-graphic-design-company.vercel.app",
@@ -699,7 +699,7 @@ export const PROJECTS: Project[] = [
     "slug": "azm",
     "name": "AZM Studio",
     "short": "AZM",
-    "cat": "Corporate",
+    "cat": "Companies",
     "year": "2026",
     "role": "Web Developer and Designer",
     "live": "https://azm-builds.vercel.app",

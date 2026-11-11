@@ -3,7 +3,7 @@ import { PROFILE, SITE_URL, EDUCATION } from "@/data/profile";
 import { PROJECTS, type Project } from "@/data/projects";
 import { SKILLS } from "@/data/skills";
 
-export const OG = { url: "/og-share.jpg", width: 1200, height: 630, alt: "Osama Sharaf, Full Stack Developer in Riyadh" };
+export const OG = { url: "/og-share.jpg", width: 1200, height: 630, alt: "Osama Sharaf, Full Stack Developer" };
 
 export function pageMeta(path: string, title: string, description: string, image?: { url: string; width: number; height: number; alt: string }): Metadata {
   const img = image ?? OG;
