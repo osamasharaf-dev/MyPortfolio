@@ -1,7 +1,17 @@
 {
   "name": "Osama Sharaf",
+  "alternateName": [
+    "أسامة شرف",
+    "اسامه شرف",
+    "اسامة شرف",
+    "أسامه شرف",
+    "Eng. Osama Sharaf",
+    "المهندس أسامة شرف",
+    "Osama Abdulhalim Sharaf"
+  ],
   "url": "https://osamasharaf.dev",
   "description": "Portfolio of Osama Sharaf, Full Stack Developer in Riyadh, Saudi Arabia.",
+  "description_ar": "الموقع الرسمي لأسامة شرف، مطوّر مواقع Full Stack في الرياض، المملكة العربية السعودية.",
   "person": {
     "name": "Osama Sharaf",
     "jobTitle": "Full-Stack Engineer",
@@ -11,6 +21,15 @@
     "sameAs": [
       "https://linkedin.com/in/osama-sharaf-dev",
       "https://github.com/osamasharaf-dev"
+    ],
+    "alternateName": [
+      "أسامة شرف",
+      "اسامه شرف",
+      "اسامة شرف",
+      "أسامه شرف",
+      "Eng. Osama Sharaf",
+      "المهندس أسامة شرف",
+      "Osama Abdulhalim Sharaf"
     ]
   },
   "resources": [

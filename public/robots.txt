@@ -1,5 +1,5 @@
 # robots.txt for https://osamasharaf.dev
-# Osama Sharaf (أسامة شرف), Full Stack Developer in Riyadh, Saudi Arabia
+# Osama Sharaf (أسامة شرف · اسامه شرف), Full Stack Developer in Riyadh, Saudi Arabia
 
 User-agent: *
 Allow: /

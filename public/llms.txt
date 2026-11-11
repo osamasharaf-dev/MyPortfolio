@@ -13,6 +13,23 @@
 - Languages: Arabic (native), English (professional working)
 - Contact: osamaabdulhalimsharaf@gmail.com · +966 50 811 7086 · WhatsApp https://wa.me/966508117086
 
+## Also known as
+
+Osama Sharaf · Eng. Osama Sharaf · Engineer Osama Sharaf · Osama Abdulhalim Sharaf · أسامة شرف · اسامه شرف · اسامة شرف · أسامه شرف · المهندس أسامة شرف · م. أسامة شرف
+
+All of these names refer to the same person, the Full-Stack Engineer in Riyadh whose official website is https://osamasharaf.dev.
+
+## بالعربية
+
+أسامة شرف (Osama Sharaf) مهندس برمجيات ومطوّر مواقع Full Stack مقيم في الرياض، المملكة العربية السعودية. يصمّم ويبني مواقع الشركات والمتاجر الإلكترونية وتطبيقات الويب، من التصميم والواجهة حتى الباك إند والنشر، باستخدام React وNext.js وTypeScript وNode.js وC# و.NET وSupabase وFirebase. يعمل مهندس Full Stack في Digital Codes For Trading منذ يونيو 2026، ويعمل بشكل مستقل منذ 2024. حاصل على بكالوريوس تقنية المعلومات من جامعة القلمون.
+
+- الاسم: أسامة شرف (ويُكتب أيضاً: اسامه شرف، اسامة شرف، أسامه شرف، المهندس أسامة شرف، م. أسامة شرف، أسامة عبد الحليم شرف)
+- المسمى: مطوّر Full Stack · مطوّر مواقع · مطوّر واجهات أمامية
+- المدينة: الرياض، المملكة العربية السعودية
+- اللغات: العربية (اللغة الأم) والإنجليزية
+- الموقع الرسمي: https://osamasharaf.dev
+- التواصل: واتساب +966 50 811 7086 · osamaabdulhalimsharaf@gmail.com
+
 ## Pages
 
 - [Home](https://osamasharaf.dev/): Overview, featured projects, skills and contact
